@@ -1,0 +1,47 @@
+/* de cada grupo de hermanos al mismo nivel de li´s. */
+li:nth-child(3){
+    color: chocolate;
+}
+
+/*  */
+
+p:first-child{
+    color: crimson;
+}
+
+p:last-child{
+    color: blue;
+}
+
+/* selecionar todos loa elementos IMPARES DE UN GRUPO DE HERMANOS */
+
+tr:nth-child(odd) {
+    background-color: tan;
+
+}
+
+/* PARES */
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+thead>tr {
+    background-color: silver;
+}
+
+#tr-encabezado{
+    background-color: silver;
+}
+/* :not() ===> interpretado como un excepto */
+/* todos los elemento dentro de un ul a cualquier nivel
+excepto los que tenga la clase "seleccionado */
+
+ul :not(.seleccionado) {
+    color: red;
+}
+
+/* todos los H4 excepto los que tenngan la clase "Grande" */
+h4:not(.letra-grande){
+    color:violet ;
+}
+

@@ -1,0 +1,21 @@
+*{
+    margin:o;
+    box-sizing: border-box;
+
+
+}
+
+#div-1 {
+    width: 150px;
+    height: 150px;
+    margin:50px auto 0px auto;
+    border: 1px #555555;
+    /* valores: color desplazamiento-x desplazamiento en el eje y desenfoque /  resplandor >===> inset dentro del elemento */
+    box-shadow:#999999 10px 10px 10px 5px inset;
+
+}
+#div-1 :hover{
+    /* :hover cuando el mause pasa por encima del emento */
+    background-color: #eeeeee;
+    box-shadow: #999999 0px 0px 4px 1px;
+}

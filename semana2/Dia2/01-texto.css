@@ -1,0 +1,26 @@
+/* Familia de Fuente */
+h1{
+    /* tipo de letra */
+    font-family: cursive, Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+/* tamaño por defecto en loas paginas es de 16px */
+font-size: 20px;
+font-family:  Tahoma, sans-serif;
+}
+
+h4{
+/* Porcion de negrita DEL TEXTO */
+/*  */
+font-weight: bold;
+}
+small{
+    /* ETLOS DE FUENTE */
+    /* NORRMAL | OBLIQUE | ITALIC */
+    font-style: italic;
+}
+.texto-footer {
+    /* propiedad de texto estilo SHORTHAND */
+    /* font style,font-weight.font-size,font family */
+    font: italic 100 10px Arial;
+}

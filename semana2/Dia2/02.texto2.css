@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'reboto';
+    src: url('./Roboto-Regular.ttf');
+}
+h1{
+    /* OJO: alineamiento de texto y no de Elemento */
+    text-align: center;
+}
+.letra-reboto{
+    font: 'reboto';
+}
+
+
+/*  */
+p:not(.texto-footer) {
+    /* indenta o agreaga sangria a la primera linea de un texto */
+    text-indent: 40px;
+    /* espacio entre letra y letra en un texto */
+    letter-spacing: 5px;
+    /* espacio entre palabra y palabra */
+    word-spacing: 15px;
+    /* interlineado */
+    line-height: 13px;
+}
+SMALL{
+    /* Underline  |overline |  NAME   | LINE - THRAYAH */
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

@@ -1,0 +1,42 @@
+/* FUNCIONES DE RESETO */
+/* NINGUN ELEMEMNTO TENDRA MARGEN */
+*{
+
+}
+head {
+    background-color: coral;
+}
+h1{
+    background-color: crimson;
+}
+
+body{
+    background-color: lightcyan;
+
+}
+
+main{
+    width: 50%;
+    background-color: lightcoral;
+    width: 100%;
+}
+
+.section-1 {
+    background-color: darkgreen;
+    color: #ADFDAD;
+    width: 100px;
+}
+
+.section-2{
+    background-color: darkred;
+    color: #FCAAAA;
+    width: 50%;
+    height: 100px;
+    /* over ==> determina que se hara con el contenido extra al tamaño del contenedor*/
+    /* hiden oculta el contenido    ue rebalse */
+    /* scroll ==> dibuja el scoll en el contenedor rebalse  */
+    /* overflow: auto; */
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+}

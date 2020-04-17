@@ -1,0 +1,15 @@
+/* Notacion de Colores */
+h1 {
+    text-align: center;
+    color: #998877
+}
+main p {
+    color: rgb(50, 200, 0);
+}
+h3{
+    color:rgba(225,42, 85, alpha);
+}
+.rojo-transparente{
+    
+    color:rgba(255,42, 85,0)
+}

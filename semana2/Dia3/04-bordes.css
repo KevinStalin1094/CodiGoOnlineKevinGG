@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    height: 150px;
+    background-color: #fb6d6c;
+  }
+  
+  main {
+    height: 1000px;
+  }
+  
+  #section-1 {
+    width: 100px;
+    height: 100px;
+    background-color: mediumturquoise;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: navy; */
+    border: 3px solid navy;
+  }
+  
+  #section-2 {
+    width: 100px;
+    height: 100px;
+    background-color: mediumturquoise;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: navy; */
+    border-bottom: 3px solid red;
+  }
+  #section-3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid tomato;
+    margin-top: 10px;
+    /* radio o curvatura de las esquinas del elemento */
+    /* cuandoose coloca 50% la referencia es el ancho y el alto del mismo elemento */
+    border-radius: 50%;
+  }
+  #section-4 {
+      margin-top: 10px;
+      width: 100px;
+      height: 100px;
+      border: 3px solid darkgreen;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 20px;
+  }
+  
+  /* borde del borde==>> outline */
+  #section-5 {
+      width: 100px;
+      height: 100px;
+      margin:10px auto 0px auto;
+      border: 3px solid saddlebrown;
+      outline:30px solid teal;
+      outline-offset: 100px;
+
+
+  }
+  #section-6 {
+      margin-top: 100px;
+  }
+
+  #section-6 input {
+    /* ¿como elimina un borde que ya viene por defecto */
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid tomato;
+    color:tomato;
+    background-color: #fedbd4;
+    padding: 12px;
+    border-radius: 20px;
+    
+}
+
+#section-6 input::placeholder {
+    color: crimson;
+}
