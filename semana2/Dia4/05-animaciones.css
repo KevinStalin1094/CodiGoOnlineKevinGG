@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#div-1{
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    /* animacion:nombre duracion funcion de tiempo de lay nro de veces a repetir direcection  fill-mode;*/
+    animation: cambiardecolores 2s ease 0s 1 infinite normal none;
+    
+}
+#div-2{
+    margin: 100px auto 0px auto;
+    width: 150px;
+    height: 150px;
+    background-image: url(./refresh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#div-2{
+    animation: girar 1s linear 0s infinite normal none;
+}
+    
+
+/* creando una aminacion */
+@keyframes cambiardecolores{
+    0%{background-color: green;
+    }
+    50%{background-color: red;
+        transform: scale(1.5);
+    }
+    100%{background-color: indigo;
+    }
+}
+
+
+@keyframes girar{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg) scale(1.5) translate(0px);
+    }
+    
+    100%{transform: rotate(360deg);
+    }
+}
