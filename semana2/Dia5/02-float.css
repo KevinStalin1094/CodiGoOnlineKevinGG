@@ -49,4 +49,28 @@ header{
 .fix{
     clear: both;
 }
-
+#navegacion {
+    background-color: crimson;
+    color:white;
+    text-align: center;    
+}
+#navegacion>dic{
+    background-color: indigo;
+    width: 100px;
+    display: inline-block;
+    /* margin: 5px -4px; */
+}
+#navgacion-wraper{
+    margin: 0 auto;
+    width: 400px;    
+}
+/* .navegacion-wraper>div:not(.fix) */
+.opcion-1, .opcion-2, .opcion-3 {
+    background-color: indigo;
+    width: 100px;
+    float: left;
+    /* margin: 5px -4px */
+    text-align: center;
+    boder: 1px solid yellow;
+    padding: 15px;
+}
