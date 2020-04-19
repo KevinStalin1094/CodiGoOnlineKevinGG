@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+header{
+    background-color: yellow;
+    height: 70px;
+}
+main{
+    height: calc(900px - 70px);
+    background-color: red;
+}
+aside{
+    float: left;
+    width: 20%;
+    background-color: indigo;
+    height: calc(900px - 70px);
+}
+#principal{
+    float: left;
+    width: 60%;
+    background-color: orange;
+    height: calc(900px - 70px);    
+}
+.fix{
+    clear: both;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    /* vh==> viewport heigth altura */
+    height: 100vh;
+    background-color: #eeeeee;
+}
+.contenedor{
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    /* margin: 0 auto; */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+.imagen-wrapper{
+    height: 250px;
+    border: 1px solid red;
+    position: relative;
+}
+.circulo {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.texto-wapper{
+    text-align: center;
+}
+.texto-wapper>p{
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Manrope" , sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #444444;    
+}
+.texto-wapper>button {
+    margin-top: 50px;
+    border: none;
+    background-color: #679f16;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+
+    font-family: "Manrope" , sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #444444;
+}
