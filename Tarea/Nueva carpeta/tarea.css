@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(230, 220, 220);
+  }
+  
+  #div-1 {
+    transition: all 1s ease 0s;
+    background-image: url("http://placekitten.com/500/500");
+    opacity: 0.9;
+  }
+  
+  #div-1:hover {
+    height: 500px;
+    width: 500px;
+    opacity: 0.05;
+    transform: scale(0.5, 0.5);
+    border-radius: 20px;
+  }
+  #div-2 {
+    transition: all 1s ease 0s;
+    background-color: red;
+  }
+  
+  #div-2:hover {
+    margin: 1px all 0px ease;
+    height: 500px;
+    width: 600px;
+    background-color: yellow;
+    background-size: cover;
+    transform: scale(0.5, 0.5);
+  }
+  
