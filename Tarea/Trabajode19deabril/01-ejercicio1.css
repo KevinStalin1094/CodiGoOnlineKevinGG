@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+}
+.menu-1{
+    background-color: #fefedc;        
+}
+.menu-2{
+    background-color: #fedefe;
+    height: 25vh;    
+}
+#xd1 {    
+    width: 100vh;     
+}
+.menu-3 {
+    background-color: #DCDCFE;
+    float: left;
+    width: 50%;
+    
+}
+.menu-4{
+    background-color: #DCFEFE;
+    width: 50%;
+    float: right;        
+}
+#xd12 {
+    margin: 0 auto;
+    height: 1000vh;
+    width: 100vh;
+    float: left;
+    
+}
+.menu-5{
+    background-color: #fedcdc;
+    width: 34%;
+    float: left;
+    padding: 15px;
+}
+.menu-6{
+    background-color: #dcfedc;
+    width: 33%;
+    float: left;
+    padding: 15px;
+}
+.menu-7{
+    background-color: #DCDCFE;
+    width: 33%;
+    float: left;
+    padding: 15px;
+}
+main{
+    background-color: #dcdcdc;
+    margin: 0;
+}
+.menu-9{
+    background-color: #dcdcdc;
+    width: 100vh;        
+}
