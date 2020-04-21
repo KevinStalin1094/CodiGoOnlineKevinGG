@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #aaaaaa;
+    
+}
+.menu, .resultados{
+    height: 100vh;
+    float: left;    
+}
+.flix {
+    clear: both;
+}
+/* RESULTADOS */
+.resultados{
+width: calc(100% - 328px) ;
+background-color: #46178f;
+}
+.resultados-header{
+    position: relative;
+}
+.header-titulo{
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 28px;
+}
+.header-icono{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+.feedback-boton{
+    float: right;   
+    border: none;
+    padding: 8px 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border-bottom: 4px solid #aaa;
+}
+.lista-contenedor{
+    list-style: none;
+    /* border: 1px solid yellow; */
+    padding: 0px 10%;
+}
+.lista-item{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.iten-nombre {
+    float: left;    
+}
+
+.iten-puntaje {
+    float: right;
+    font-weight: 800;    
+}
+.resultados-lista{
+    margin-top: 200px;    
+}
+
+.ganador{
+    background-color: white;
+    color: #333;
+    border-radius: 6px;    
+}
+/* MENU */
+.menu-botones{
+    /* connsiderar coloca porcentaje */
+    margin-top: 80px;
+}
+.menu{
+    width: 328px;
+    padding: 60px 40px 30px 40px;
+}
+.menu-titulo{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #333;  
+}
+.boton{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 5px;
+    margin: 25px 0px;
+    color: #FAFEFE;
+    font-size: 22px;
+}
+.exitoso{
+    background-color: #26890c;
+    border-bottom: 4px solid #1c6709;
+
+}
+.exitoso:hover {
+    background-color: #1c6709;
+    border-bottom: 4px solid #1c6709;    
+
+}
+.primario{
+    background-color: #1368ce;
+    border-bottom: 4px solid #0e4e9a;
+}
+.parrafo-footer{
+    text-align: center;
+    color: #6e6e6e;
+}
+.span-footer {
+    color: #46178f;
+    font-weight: 900;
+}
+.menu-footer{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px 40px 20px 40px;
+}
+.
