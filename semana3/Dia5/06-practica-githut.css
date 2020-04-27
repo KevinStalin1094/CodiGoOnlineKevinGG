@@ -1,0 +1,27 @@
+*{
+    margin: opx;
+    box-sizing: border-box;
+    padding: opx;
+}
+.body{
+    width: 1348px;
+    height: 54px;
+    background-color: rgba(39, 37, 37, 0.5);
+}
+
+.menu-imagen{
+    border: 1px solid red;
+    height: 28px;
+    width: 35px;
+    display: flex;   
+        
+}
+.menu-cuadrado{
+    display: flex;
+    justify-content: center;
+    width: 304px;
+    height: 28px;
+    border: 1px solid #3f4448;
+    border-radius: 10px 10px 10px 10px;
+
+}
