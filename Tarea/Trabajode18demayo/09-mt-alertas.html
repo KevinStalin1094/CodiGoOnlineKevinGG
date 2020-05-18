@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <main class="container">
+
+        <div class="row">
+            <div class="col m6">
+                <h4>Alerta <code>class="btn"</code></h4>
+                <a class="btn" onclick="alerta()">Cuidadoooo</a>
+            </div>
+        </div>
+
+
+        
+        
+
+
+
+
+
+    </main>
+
+
+    
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        function alerta(){
+            M.toast({
+            html: 'Formulario Enviado!',
+            displayLength:2000,
+            classes:'red',
+            completeCallback: function(){alert('Holaaa Comooo Estas')}
+            
+            })
+        }
+        var toastHTML = '<span>I am toast content</span><button class="btn-flat toast-action">Marcar x</button>';
+            M.toast({html: toastHTML});
+
+        M.toast({html: 'I am a toast!', classes: 'rounded'});
+
+    </script>
+</body>
+
+</html>

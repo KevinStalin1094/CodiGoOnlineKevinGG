@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .display3 {
+            padding-left: 9px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <nav class="nav-wrapper">
+        <div class="container">
+            <a href="#" class="brand-logo">Bienvenido</a>
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">ENLACE</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">BOTON</a></li>
+                <li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>          
+            </ul>      
+        </div>
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="#">ENLACE</a></li>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">BOTON</a></li>
+        </ul>           
+    </div>
+    </nav>
+    <main>
+        <div class="container left display3">
+            <div class="row m12 card-panel teal lighten-2">
+                <div class="col">
+                    <h4>EL CURSO</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos repellendus explicabo odio corrupti cupiditate unde perspiciatis minus laborum nihil.</p>
+                    <hr>
+                    <p></p>
+                    <a class="waves-effect waves-light btn-large">Button</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">  
+            <div class="col m12">
+                <h1 class="center">
+                    Nuestros Productos
+                   </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m12">
+                <div class="carousel carousel-slider center">
+                    <div class="carousel-fixed-item center">
+                      <a class="btn waves-effect white grey-text darken-text-2">Boton</a>
+                    </div>
+                    <div class="carousel-item red white-text" href="#one!">
+                      <h2>PANEL l</h2>
+                      <p class="white-text">ONEEEE</p>
+                    </div>
+                    <div class="carousel-item amber white-text" href="#two!">
+                      <h2>PANEL 2</h2>
+                      <p class="white-text">TWOOOOOOOOOOOOOOOO</p>
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!">
+                      <h2>PANEL 3</h2>
+                      <p class="white-text">THREEEE</p>
+                    </div>
+                    <div class="carousel-item blue white-text" href="#four!">
+                      <h2>Panel 4</h2>
+                      <p class="white-text">FOURRRRRRRRRRRRR</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{
+             duration: 500,
+             indicators: true
+         });
+            M.AutoInit();
+        });
+    </script>
+</body>
+
+</html>

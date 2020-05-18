@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <main class="container">
+
+        <div class="row">
+            <div class="col-m6">
+                <a href="#idModal" class="btn modal-trigger red">Modal Ancla</a>
+
+                <button class="btn modal-trigger blue" data-target="idModal2" >Modal  BOTON</button>
+
+                <div id="idModal2" class="modal">
+                    <div class="modal-content">
+                        <h4>EL TITULO</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem provident minus modi possimus praesentium, repudiandae quis neque quibusdam corrupti aut eius illo asperiores, accusamus cumque magni delectus commodi quo magnam!</P>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn modal-close">Cerrado</a>
+                    </div>
+                </div>  
+                
+
+                <div id="idModal" class="modal">
+                    <div class="modal-content">
+                        <h4>EL TITULO</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem provident minus modi possimus praesentium, repudiandae quis neque quibusdam corrupti aut eius illo asperiores, accusamus cumque magni delectus commodi quo magnam!</P>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn modal-close">Cerrado</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+    
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.modal');
+          var instances = M.Modal.init(elems);
+        });
+
+
+    </script>
+</body>
+
+</html>
